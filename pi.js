@@ -35,4 +35,5 @@ function calculate() {
 	//console.log(pi / (10n ** 20n));
 	piElement.innerHTML = ("" + pi / (10n ** 20n)).substring(0, 1) + "." + ("" + pi / (10n ** 20n)).substring(1);
 	digits++;
+	window.scrollTo(0,document.body.scrollHeight);
 }
